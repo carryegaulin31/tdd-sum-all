@@ -1,13 +1,12 @@
-/* eslint-disable no-undef */
-// var describe = require('mocha').describe
-// var it = require('mocha').it
-var sumAll = require('../calculation')
-var expect = require('chai').expect
+const describe = require('mocha').describe
+const it = require('mocha').it
+const sumAll = require('../calculation')
+const expect = require('chai').expect
 
 
 describe('calculation', () => {
   describe('sumAll', () => {
-    it('retutn the sum of all the numbers in the array', () => {
+    it('return the sum of all the numbers in the array', () => {
       //set up test data
       var testData = [42, 76, 100]
 
