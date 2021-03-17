@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/carryegaulin31/tdd-sum-all#readme",
   "devDependencies": {
-    "eslint": "^7.22.0"
+    "chai": "^4.3.4",
+    "eslint": "^7.22.0",
+    "mocha": "^8.3.2"
   }
 }
